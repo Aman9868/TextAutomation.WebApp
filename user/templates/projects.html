@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block title %}
+Projects
+{% endblock %}
+{% block content %}
+<section class="service_section">
+    <div class="container">
+      <div class="custom_heading-container">
+        <h2 style="color:white">
+          <br><br><br><br><br>Our Projects
+        </h2>
+      </div>
+        <div class="service_container layout_padding2">
+        <div class="service_box">
+          <div class="img-box">
+            <a href="https://valueml.com/skin-cancer-detection-using-resnet50/">
+                <img src="{{url_for('static',filename='images/s-10.jfif')}}" alt=""/></a>>
+          <div class="detail-box">
+            <h4 style="color:white">
+              Skin Cancer <br/>
+              Detection
+            </h4>
+            <p>
+              Skin cancer — the abnormal growth of skin cells — most often develops on skin exposed to the sun.
+                But this common form of cancer can also occur on areas of your skin not ordinarily exposed to sunlight.
+            </p>
+          </div>
+        </div>
+        <div class="service_box">
+          <div class="img-box">
+             <img src="{{url_for('static',filename='images/s-11.jfif')}}" alt=""/>
+          </div>
+          <div class="detail-box">
+            <h4>
+              Tomato Leaf <br/>
+              Disease Detection
+            </h4>
+            <p>
+             Plants are a major source of food for the world population.
+                Plant diseases contribute to production loss, which can be tackled with continuous monitoring.
+                Manual plant disease monitoring is both laborious and error-prone.
+
+          </div>
+        </div>
+        <div class="service_box">
+          <div class="img-box">
+             <a href="https://valueml.com/sound-classsification-with-yamnet/" >
+                 <img src="{{url_for('static',filename='images/s-12.png')}}" alt=""/></a>
+          </div>
+          <div class="detail-box">
+            <h4>
+              Sound <br/>
+              Classification
+            </h4>
+            <p>
+             A stop word is a commonly used word (such as “the”, “a”, “an”, “in”) that a search engine has been programmed to ignore, both when indexing entries for searching and when retrieving them as the result of a search query.
+             We would not want these words to take up space in our database, or taking up valuable processing time.
+              For this, we can remove them easily, by storing a list of words that you consider to stop words
+            </p>
+          </div>
+        </div>
+        <div class="service_box">
+          <div class="img-box">
+             <a href="https://valueml.com/sarcasm-detection-with-glove-embeddings-using-tensorflow-python/">
+                 <img src="{{url_for('static',filename='images/s-13.jpg')}}" alt=""/></a>
+          </div>
+          <div class="detail-box">
+            <h4>
+              Sarcasm <br/>
+              Detection
+            </h4>
+            <p>
+             Sarcasm detection is the task of identifying irony containing utterances in sentiment-bearing text.
+                However, the figurative and creative nature of sarcasm poses a great challenge for affective computing systems performing sentiment analysis.</p>
+          </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</section>
+ {% endblock %}
