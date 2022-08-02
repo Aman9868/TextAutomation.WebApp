@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}
+About
+{% endblock %}
+{% block content %}
+  <!-- welcome section -->
+  <section class="welcome_section layout_padding" style="color:white">
+    <div class="container">
+      <div class="custom_heading-container">
+        <h2>
+          Welcome To Our Company
+        </h2>
+      </div>
+      <div class="layout_padding2">
+        <div class="img-box">
+          <img src="{{url_for('static',filename='images/welcomes.png')}}" alt=""/>
+        </div>
+        <div class="detail-box">
+          <p>
+            Text Analytics has lots of applications in today's online world.
+            By analyzing tweets on Twitter, we can find trending news and peoples reaction on a particular event.
+            Amazon can understand user feedback or review on the specific product.
+            BookMyShow can discover people's opinion about the movie.
+            Youtube can also analyze and understand peoples viewpoints on a video.
+          </p>
+          <div>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+ </html>
+{% endblock %}

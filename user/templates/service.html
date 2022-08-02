@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+{% block title %}
+Service
+{% endblock %}
+{% block content %}
+
+  <section class="service_section">
+    <div class="container">
+      <div class="custom_heading-container">
+        <h2>
+          Our Services
+        </h2>
+      </div>
+      <div class="service_container layout_padding2">
+        <div class="service_box">
+          <div class="img-box">
+            <img src="{{url_for('static',filename='images/s-1.jpg')}}" alt=""/>
+          </div>
+          <div class="detail-box">
+            <h4>
+              Token <br/>
+              Classification
+            </h4>
+            <p>
+              Token classification is a natural language understanding task in which a label is assigned to some tokens in a text.
+              Some popular token classification subtasks are Named Entity Recognition (NER) and Part-of-Speech (PoS) tagging.
+            </p>
+          </div>
+        </div>
+        <div class="service_box">
+          <div class="img-box">
+             <img src="{{url_for('static',filename='images/s-2.jpg')}}" alt=""/>
+          </div>
+          <div class="detail-box">
+            <h4>
+              Sentiment <br/>
+              Analysis
+            </h4>
+            <p>
+             Sentiment analysis is the automated process of tagging data according to their sentiment, such as positive, negative and neutral.
+              Sentiment analysis allows companies to analyze data at scale, detect insights and automate processes.
+            </p>
+          </div>
+        </div>
+        <div class="service_box">
+          <div class="img-box">
+             <img src="{{url_for('static',filename='images/sss.png')}}" alt=""/>
+          </div>
+          <div class="detail-box">
+            <h4>
+              Stopwords <br/>
+              Remover
+            </h4>
+            <p>
+             A stop word is a commonly used word (such as “the”, “a”, “an”, “in”) that a search engine has been programmed to ignore, both when indexing entries for searching and when retrieving them as the result of a search query.
+             We would not want these words to take up space in our database, or taking up valuable processing time.
+              For this, we can remove them easily, by storing a list of words that you consider to stop words
+            </p>
+          </div>
+        </div>
+        <div class="service_box">
+          <div class="img-box">
+             <img src="{{url_for('static',filename='images/s-5.jpeg')}}" alt=""/>
+          </div>
+          <div class="detail-box">
+            <h4>
+              Text <br/>
+              Summarization
+            </h4>
+            <p>
+             Text summarization is the technique for generating a concise and precise summary of voluminous texts while focusing on the sections that convey useful information, and without losing the overall meaning.
+Automatic text summarization aims to transform lengthy documents into shortened versions, something which could be difficult and costly to undertake if done manually.
+            </p>
+          </div>
+        </div>
+        <div class="service_box">
+          <div class="img-box">
+             <img src="{{url_for('static',filename='images/s-4.jpg')}}" alt=""/>
+          </div>
+          <div class="detail-box">
+            <h4>
+              Punctuations <br/>
+              Remover
+            </h4>
+            <p>
+             Tokenizing and removing all punctuation marks from a sentence removes all punctuation marks from each word. For example, the sentence "Think and wonder, wonder and think."
+              tokenized and removed of punctuation marks is ['Think', 'and', 'wonder', 'wonder', 'and', 'think'].
+            </p>
+          </div>
+        </div>
+        <div class="service_box">
+          <div class="img-box">
+             <img src="{{url_for('static',filename='images/s-3.jpg')}}" alt=""/>
+          </div>
+          <div class="detail-box">
+            <h4>
+              Grammar <br/>
+              Correction
+            </h4>
+            <p>
+              Grammarly is a popular online grammar checker tool available as a browser addon for Google Chrome, Firefox, and even Microsoft Edge.
+              It checks for grammar and spelling errors as you write your posts.
+            </p>
+          </div>
+        </div>
+        <div class="service_box">
+          <div class="img-box">
+             <img src="{{url_for('static',filename='images/s-6.jpeg')}}" alt=""/>
+          </div>
+          <div class="detail-box">
+            <h4>
+              Text <br/>
+              Generation
+            </h4>
+            <p>
+             Text generation is the task of generating text with the goal of appearing indistinguishable to human-written text.
+              This task if more formally known as "natural language generation" in the literature.
+            </p>
+          </div>
+        </div>
+        <div class="service_box">
+          <div class="img-box">
+             <img src="{{url_for('static',filename='images/s-7.jpg')}}" alt=""/>
+          </div>
+          <div class="detail-box">
+            <h4>
+              Fill <br/>
+              Mask
+            </h4>
+            <p>
+             Masked language modeling is the task of masking some of the words in a sentence and predicting which words should replace those masks.
+              These models are useful when we want to get a statistical understanding of the language in which the model is trained in.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <a href="/tryitout">
+          Try it Out.
+        </a>
+      </div>
+    </div>
+  </section>
+{% endblock %}

@@ -1,0 +1,8 @@
+torch
+Flask
+Flask-WTF
+Flask-SQLAlchemy
+transformers
+flair
+nltk
+textblob
