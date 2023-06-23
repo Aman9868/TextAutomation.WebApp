@@ -55,5 +55,5 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 ## Authors
 
-- [@Aman](https://www.github.com/Aman9868)
+- [@Aman9868](https://www.github.com/Aman9868)
 
