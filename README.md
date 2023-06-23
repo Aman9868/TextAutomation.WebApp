@@ -17,6 +17,12 @@ This project solves all kind of NLP based problems just within a couple of secon
 
 7.Spell Correct.
 
+8.Text2PPT
+
+9.Text2Speech
+
+10. Question Answering
+
 ## Appendix
 This project is build on python 3.7
 
