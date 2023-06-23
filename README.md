@@ -17,41 +17,32 @@ This project solves all kind of NLP based problems just within a couple of secon
 
 7.Spell Correct.
 
-8.Text2PPT
+8.Text2PPT.
 
-9.Text2Speech
+9.Text2Speech.
 
-10. Question Answering
+10. Question Answering.
 
 ## Appendix
-This project is build on python 3.7
+This project is build on python 3.10
 
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to first install requirement.txt in your terminal:
 
-`flair==0.11.3`
-`Flask==2.1.3`
-`Flask_Bcrypt==1.0.1`
-`Flask_Login==0.6.2`
-
-`Flask_SQLAlchemy==2.5.1`
-`Flask_WTF==1.0.1`
-`nltk==3.7`
-
-`numpy==1.23.1`
-`textblob==0.17.1`
-`torch==1.12.0`
-
-`transformers==4.20.1`
-`Werkzeug==2.2.0`
-`WTForms==3.0.1`
+`pip install requirements.txt`
+## NLP Services
+![Screenshot 2023-06-23 154022](https://github.com/Aman9868/TextAutomation.WebApp/assets/60923869/cb5ae41b-900c-4fd6-88d8-3e1f39ec08c2)
 
 
 ## Demo
 ![alt text](https://raw.githubusercontent.com/Aman9868/TextAutomation.WebApp/master/screenshots/Screenshot%202022-07-24%20141911.png)
 ![alt text](https://raw.githubusercontent.com/Aman9868/TextAutomation.WebApp/master/screenshots/Screenshot%202022-07-24%20141935.png)
+![Screenshot 2023-06-23 154109](https://github.com/Aman9868/TextAutomation.WebApp/assets/60923869/d1165246-e2af-4cde-9d7d-e3f80ceed281)
+![Screenshot 2023-06-23 154201](https://github.com/Aman9868/TextAutomation.WebApp/assets/60923869/8676ba26-7e5c-4847-822a-0c76aff82da3)
+
+
 
 ## Badges
 
